@@ -61,21 +61,21 @@ bool Trapezoid::setHeight(double h)
 // Getter functions
 double Trapezoid::getBase1()
 {
-	return b;
+	return base1;
 }
 
 double Trapezoid::getBase2()
 {
-	return s;
+	return base2;
 }
 
 double Trapezoid::getHeight()
 {
-	return h;
+	return height;
 }
 
 // Calc Area function returns area of trapezoid
 double Trapezoid::calcArea()
 {
-	return ((b+s)/2)*h;
+	return ((base1+base2)/2)*height;
 }

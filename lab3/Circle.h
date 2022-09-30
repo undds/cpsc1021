@@ -17,8 +17,8 @@ class Circle {
 
     private:
         double radius;
-        double pI = 3.14149;
-    
+        double pi = 3.14149;
+
     public:
         bool setRadius(double r);
         double getRadius();

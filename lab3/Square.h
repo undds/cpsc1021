@@ -20,7 +20,7 @@ class Square {
 	public:	
 		bool setSide(double);
 		double calcArea();
-		double getSide(double);
+		double getSide();
 };
 
 #endif

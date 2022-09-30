@@ -13,7 +13,6 @@ bool Circle::setRadius(double r) {
 
     }
 }
-
 double Circle::getRadius() {
 
     return radius;
@@ -22,6 +21,6 @@ double Circle::getRadius() {
 
 double Circle::calcArea() {
 
-    return pI * pow(radius, 2);
+    return pi * pow(radius, 2);
 
 }
