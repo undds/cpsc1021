@@ -7,9 +7,9 @@
 
 #include "Square.h"
 
-bool Square::setSide(double test){
+bool Square::setSide(double in){
 	if (test >= 0){
-	side = test;
+	side = in;
 	return true;
 }
 	else
@@ -21,6 +21,7 @@ double Square::calcArea(){
 
 }
 
-double Square::getSide(double test){
-		return test;
+double Square::getSide(){
+
+		return side;
 }

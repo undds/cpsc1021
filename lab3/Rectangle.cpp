@@ -23,12 +23,12 @@ bool Rectangle::setLength(double test){
 		return false;
 }
 
-double Rectangle::getLength(double test){
-	return test;
+double Rectangle::getLength(){
+	return length;
 }
 
-double Rectangle::getWidth(double test){
-	return test;
+double Rectangle::getWidth(){
+	return width;
 }	
 
 double Rectangle::calcArea(){

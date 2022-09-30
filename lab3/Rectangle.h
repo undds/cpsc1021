@@ -10,13 +10,12 @@ class Rectangle{
 	private:
 		double length;
 		double width;
-		double test;
 
 	public:
 		bool setLength(double);
 		bool setWidth(double);
-		double getLength(double);
-		double getWidth(double);
+		double getLength();
+		double getWidth();
 		double calcArea();
 };
 
